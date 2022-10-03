@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_engine_status"
+        android:title="Engine Status" />
+
+    <item
+        android:id="@+id/nav_alerts"
+        android:title="Alerts" />
+
+    <item
+        android:id="@+id/nav_startup"
+        android:title="Startup" />
+
+    <item
+        android:id="@+id/nav_batteries"
+        android:title="Batteries" />
+
+    <item
+        android:id="@+id/nav_environmental"
+        android:title="Environmental"/>
+
+
+    <item
+        android:id="@+id/nav_security"
+        android:title="Security"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"/>
+
+
+    <item
+        android:id="@+id/nav_information"
+        android:title="Information"/>
+
+</menu>
