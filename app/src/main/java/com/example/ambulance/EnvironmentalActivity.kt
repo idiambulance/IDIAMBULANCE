@@ -15,7 +15,7 @@ class EnvironmentalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_environmental)
-        title = "Power System"
+        title = "Environmentals"
 
 
         val Alternator1Gauge = findViewById<HalfGauge>(R.id.Alternator1Gauge)
