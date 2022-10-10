@@ -20,21 +20,22 @@ class  ToDo : AppCompatActivity() {
 
 // Engine Status
     //Create activity
-    //Can we add a speedometer from the internal phone data
+    //Can we add a speedometer from the internal phone sensors
 
 //Alerts
-    //Can I have a running list of alerts and alarms
+    //Can I have a running list of previous alarms and alerts
     //define needed alerts and alarms for sensors
-    //alert for the app not having contact with the
+    //alert for the app not having contact with the fileserver
 
 //Startup
     //Low Priority Nothing Needed
 
 //Power System
-    //add amperage to the activity
+    //low priority add amperage to the activity
 
 //Environmentals
-    //Build out the sensors list later
+    //Figure out sensors that you only care to alert you. Propane Fire Co Co2 Radiation
+    //Add audible alarm detector
 
 //Security
     //Add Activity
@@ -45,8 +46,7 @@ class  ToDo : AppCompatActivity() {
     //Can we make a setting that allows us to select which activity is opened by default. I think I want two phones each that has a different screen open
 
 //Information
-    //update information spreadsheet
-    //forum post see if theres any more info missing
+    //make capable of addding three colum data
 
 //Personal Data
     //Create Activity

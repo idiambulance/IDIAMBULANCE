@@ -18,25 +18,41 @@ class EnvironmentalActivity : AppCompatActivity() {
         title = "Environmentals"
 
 
-        val Alternator1Gauge = findViewById<HalfGauge>(R.id.Alternator1Gauge)
-        setupAlternatorGauge(Alternator1Gauge)
-        Alternator1Gauge.value = 47.0
+        val Cabintemp = findViewById<HalfGauge>(R.id.Cabintemp)
+        setupTempGauge(Cabintemp)
+        Cabintemp.value = 47.0
 
-        val Alternator2Gauge = findViewById<HalfGauge>(R.id.Alternator2Gauge)
-        setupAlternatorGauge(Alternator2Gauge)
-        Alternator2Gauge.value = 56.0
+        val Cabinhumidity = findViewById<HalfGauge>(R.id.Cabinhumidity)
+        setupAlternatorGauge(Cabinhumidity)
+        Cabinhumidity.value = 56.0
 
-        val Battery1Gauge = findViewById<HalfGauge>(R.id.Battery1Gauge)
-        setupBatteryGauge(Battery1Gauge)
-        Battery1Gauge.value = 12.0
+        val Outsidetemp = findViewById<HalfGauge>(R.id.Outsidetemp)
+        setupTempGauge(Outsidetemp)
+        Outsidetemp.value = 12.0
 
-        val Battery2Gauge = findViewById<HalfGauge>(R.id.Battery2Gauge)
-        setupBatteryGauge(Battery2Gauge)
-        Battery2Gauge.value = 30.0
+        val Outsidehumidity = findViewById<HalfGauge>(R.id.Outsidehumidity)
+        setupTempGauge(Outsidehumidity)
+        Outsidehumidity.value = 30.0
+
+        val Cabinpropane = findViewById<HalfGauge>(R.id.Cabinpropane)
+        setupTempGauge(Cabinpropane)
+        Cabinpropane.value = 30.0
+
+        val Propanebay = findViewById<HalfGauge>(R.id.Propanebay)
+        setupTempGauge(Propanebay)
+        Propanebay.value = 30.0
+
+        val Cabinfire = findViewById<HalfGauge>(R.id.Cabinfire)
+        setupTempGauge(Cabinfire)
+        Cabinfire.value = 30.0
+
+        val Enginefire = findViewById<HalfGauge>(R.id.Enginefire)
+        setupTempGauge(Enginefire)
+        Cabinfire.value = 30.0
 
     }
 
-    private fun setupBatteryGauge(myGauge : HalfGauge) {
+    private fun setupTempGauge(myGauge : HalfGauge) {
         val range = Range()
         range.color = Color.parseColor("#ce0000")
         range.from = 0.0

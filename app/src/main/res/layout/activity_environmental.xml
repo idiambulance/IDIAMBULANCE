@@ -33,7 +33,7 @@
 
                 <com.ekn.gruzer.gaugelibrary.HalfGauge
                     android:layout_marginTop="-35dp"
-                    android:id="@+id/Alternator1Gauge"
+                    android:id="@+id/Cabintemp"
                     android:layout_width="200dp"
                     android:layout_height="200dp" />
             </LinearLayout>
@@ -53,7 +53,7 @@
 
                 <com.ekn.gruzer.gaugelibrary.HalfGauge
                     android:layout_marginTop="-35dp"
-                    android:id="@+id/Alternator2Gauge"
+                    android:id="@+id/Cabinhumidity"
                     android:layout_width="200dp"
                     android:layout_height="200dp" />
             </LinearLayout>
@@ -84,7 +84,7 @@
 
                 <com.ekn.gruzer.gaugelibrary.HalfGauge
                     android:layout_marginTop="-35dp"
-                    android:id="@+id/Battery1Gauge"
+                    android:id="@+id/Outsidetemp"
                     android:layout_width="200dp"
                     android:layout_height="200dp" />
             </LinearLayout>
@@ -104,7 +104,7 @@
 
                 <com.ekn.gruzer.gaugelibrary.HalfGauge
                     android:layout_marginTop="-35dp"
-                    android:id="@+id/Battery2Gauge"
+                    android:id="@+id/Outsidehumidity"
                     android:layout_width="200dp"
                     android:layout_height="200dp" />
             </LinearLayout>
@@ -112,7 +112,105 @@
 
         </LinearLayout> <!-- this is the end of the 2nd row -->
 
+        <!--beginning of the Third row -->
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- this is the start of one gauge -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cabin Propane"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <com.ekn.gruzer.gaugelibrary.HalfGauge
+                    android:layout_marginTop="-35dp"
+                    android:id="@+id/Cabinpropane"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+            <!-- this is the end of that gauge -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Propane Bay"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <com.ekn.gruzer.gaugelibrary.HalfGauge
+                    android:layout_marginTop="-35dp"
+                    android:id="@+id/Propanebay"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+            <!-- this is the end of that gauge -->
+
+        </LinearLayout> <!-- this is the end of the 3rd row -->
+
+        <!--beginning of the Fourth row -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- this is the start of one gauge -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cabin Fire"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <com.ekn.gruzer.gaugelibrary.HalfGauge
+                    android:layout_marginTop="-35dp"
+                    android:id="@+id/Cabinfire"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+            <!-- this is the end of that gauge -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Engine Fire"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <com.ekn.gruzer.gaugelibrary.HalfGauge
+                    android:layout_marginTop="-35dp"
+                    android:id="@+id/Enginefire"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+            <!-- this is the end of that gauge -->
+
+        </LinearLayout> <!-- this is the end of the 4th row -->
 
     </LinearLayout>
 </ScrollView>
