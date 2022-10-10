@@ -37,4 +37,8 @@
         android:id="@+id/nav_information"
         android:title="Information"/>
 
+    <item
+        android:id="@+id/nav_test_mph"
+        android:title="Accelerometer MPH Test"/>
+
 </menu>

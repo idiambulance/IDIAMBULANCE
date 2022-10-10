@@ -82,6 +82,10 @@ class DashboardMainScreen : AppCompatActivity() {
                     startActivity(Intent(this, InformationActivity::class.java))
                 }
 
+                R.id.nav_test_mph -> {
+                    startActivity(Intent(this, ExampleAccelerationActivity::class.java))
+                }
+
             }
             drawerLayout.closeDrawer(Gravity.LEFT) // closes menu after you click on something
             true
